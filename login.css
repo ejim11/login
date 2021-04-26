@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 3rem;
+    background-image: url("images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.lgwriteup{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 7rem;
+}
+.lghead{
+font-family: Mulish;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0px;
+margin-bottom: 1rem;
+}
+.lgwriteup{
+    display: flex;
+    flex-direction: column;
+}
+.lgcenter{
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.mnlogin{
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+}
+.mnlogin1, .mnlogin2{
+    padding: 1rem;
+    border: 1px solid white;
+}
+.mnlogin1{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.lgmn{
+    display: none;
+}
+/*login on pc*/
+@media all and (min-width:760px){
+    nav{
+        display: none;
+    }
+    .lgmn{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.or{
+        display: flex;
+        color: white;
+        margin-bottom: 2rem;
+}
+.or:after {
+    content: "";
+    width: 50%;
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+.or:before {
+    content: "";
+    width: 50%;
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+.lgmn{
+    flex: 1;
+    padding: 3rem;
+    background-color: black;
+    opacity: 0.8;
+    margin-right: 9rem;
+    border-radius: 25px;
+}
+.lgwriteup{
+    flex: 1;
+    align-self: stretch;
+    text-align: left;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+    padding: 5rem;
+}
+.lg{
+    color:white;
+    margin-top: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+.mdword{
+    padding: 1rem;
+}
+label{
+    color: white;
+    font-size: 1.2rem;
+}
+input[type=email].email{
+    width: 100%;
+    background-color: inherit;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-top: .5rem;
+    height: 4rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+}
+input[type=submit].submit{
+    width: 100%;
+    background-color: white;
+    height: 4rem;
+    opacity: 1;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+.lgfooter{
+    color: white;
+    margin-bottom: 3rem;
+}
+span{
+    color: blue;
+}
+.lg{
+    font-family: Mulish,sans-serif;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+a>.gmail{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:#4285F4;
+    color: white;
+    padding: 1rem;
+    opacity: 1;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+}
+a{
+    text-decoration: none;
+}
+.gmword{
+    margin-left: 1rem;
+}
+}
